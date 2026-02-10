@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EISU | Essential Wear</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; border-radius: 0 !important; }
+
+        body {
+            font-family: "Helvetica", Arial, sans-serif;
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 2px solid #000;
+            position: sticky;
+            top: 0;
+            background: #fff;
+            z-index: 100;
+        }
+
+        .l img {
+            height: 40px;
+            display: block;
+            filter: grayscale(1);
+        }
+
+        .m a {
+            text-decoration: none;
+            color: #000;
+            margin-left: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        header {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 2px solid #000;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .h {
+            max-width: 300px;
+            width: 100%;
+            margin-bottom: 20px;
+            filter: invert(1);
+        }
+
+        header p {
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .c { padding: 60px 40px; }
+
+        .g {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .p {
+            border: 2px solid #000;
+            padding: 10px;
+        }
+
+        .i {
+            width: 100%;
+            height: 350px;
+            background-color: #f0f0f0;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+
+        .f {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .b {
+            display: inline-block;
+            background: #000;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid #000;
+            transition: background 0.2s;
+            margin-top: 20px;
+        }
+
+        .b:hover {
+            background: #fff;
+            color: #000;
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+            border-top: 2px solid #000;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="l">
+            <img src="https://github.com/Sudo-Aju/eisuweb/blob/main/EisuGraf.png" alt="EISU">
+        </div>
+        <div class="m">
+            <a href="#">shop</a>
+            <a href="#">archive</a>
+            <a href="#">cart</a>
+        </div>
+    </nav>
+
+    <header>
+        <img src="https://github.com/Sudo-Aju/eisuweb/blob/main/Eisumain.png" alt="EISU" class="h">
+        <p>ESSENTIALS FOR THE MODERN FORM.</p>
+        <a href="#s" class="b" style="background: #fff; color: #000;">shop collection</a>
+    </header>
+
+    <div class="c" id="s">
+        <div class="g">
+            <div class="p">
+                <div class="i">tshirt</div>
+                <div class="f">
+                    <span>really heavy tshirt</span>
+                    <span>$4500000</span>
+                </div>
+            </div>
+            <div class="p">
+                <div class="i">pant</div>
+                <div class="f">
+                    <span>Baggy pants</span>
+                    <span>$80123000</span>
+                </div>
+            </div>
+            <div class="p">
+                <div class="i">cap</div>
+                <div class="f">
+                    <span>Cap</span>
+                    <span>$1101231200</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 EISU. All Rights Reserved. No Compromise.
+    </footer>
+
+</body>
+</html>
