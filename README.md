@@ -24,6 +24,7 @@
 <ol>
     <li>Download or copy the HTML code into a single file named <code>index.html</code>.</li>
     <li>Double-click the <code>index.html</code> file to open it in any modern web browser (such as Chrome, Firefox, Safari, or Edge).</li>
+    <li>ORr you can just visit the site visible in the github description of the repo on the right!</li>
 </ol>
 
 <h2>Technologies Used</h2>
